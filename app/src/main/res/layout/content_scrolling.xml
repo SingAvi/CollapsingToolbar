@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="avi.singh.project.ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+    
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="5sp"
+        android:layout_marginTop="15dp">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Explore"
+            android:paddingTop="7sp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#393bc9"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Recent Expedition"
+            android:textStyle="normal"
+            android:textSize="11dp"
+            android:textColor="#303f9e"
+            android:paddingTop="120sp"
+            android:paddingBottom="5sp"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:paddingTop="7sp"
+            android:paddingLeft="350sp"
+            android:src="@drawable/ic_bubble_chart_black_24dp"/>
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+</android.support.v4.widget.NestedScrollView>
